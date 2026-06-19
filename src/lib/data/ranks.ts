@@ -1,0 +1,25 @@
+import { Rank } from "@/lib/types"
+
+export const ranks: Rank[] = [
+  { id: "warrior_1", name: "Warrior III", tier: "warrior", sub: 3, basePrice: 15000 },
+  { id: "warrior_2", name: "Warrior II", tier: "warrior", sub: 2, basePrice: 15000 },
+  { id: "warrior_3", name: "Warrior I", tier: "warrior", sub: 1, basePrice: 15000 },
+  { id: "elite_1", name: "Elite III", tier: "elite", sub: 3, basePrice: 20000 },
+  { id: "elite_2", name: "Elite II", tier: "elite", sub: 2, basePrice: 20000 },
+  { id: "elite_3", name: "Elite I", tier: "elite", sub: 1, basePrice: 20000 },
+  { id: "master_1", name: "Master III", tier: "master", sub: 3, basePrice: 25000 },
+  { id: "master_2", name: "Master II", tier: "master", sub: 2, basePrice: 25000 },
+  { id: "master_3", name: "Master I", tier: "master", sub: 1, basePrice: 25000 },
+  { id: "grandmaster_1", name: "Grandmaster III", tier: "grandmaster", sub: 3, basePrice: 35000 },
+  { id: "grandmaster_2", name: "Grandmaster II", tier: "grandmaster", sub: 2, basePrice: 35000 },
+  { id: "grandmaster_3", name: "Grandmaster I", tier: "grandmaster", sub: 1, basePrice: 35000 },
+  { id: "epic_1", name: "Epic III", tier: "epic", sub: 3, basePrice: 50000 },
+  { id: "epic_2", name: "Epic II", tier: "epic", sub: 2, basePrice: 50000 },
+  { id: "epic_3", name: "Epic I", tier: "epic", sub: 1, basePrice: 50000 },
+  { id: "legend_1", name: "Legend III", tier: "legend", sub: 3, basePrice: 75000 },
+  { id: "legend_2", name: "Legend II", tier: "legend", sub: 2, basePrice: 75000 },
+  { id: "legend_3", name: "Legend I", tier: "legend", sub: 1, basePrice: 75000 },
+  { id: "mythic_1", name: "Mythic", tier: "mythic", basePrice: 100000 },
+  { id: "mythic_2", name: "Mythic Honor", tier: "mythical_honor", basePrice: 120000 },
+  { id: "mythic_3", name: "Mythical Glory", tier: "mythical_glory", basePrice: 150000 },
+]
